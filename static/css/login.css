@@ -1,0 +1,46 @@
+/*fonts starts*/  
+@font-face {
+    font-family: FONTE-TITULO;
+    src: url('/static/fonts/Poppins-Black.ttf');
+}
+
+@font-face {
+    font-family: FONTE;
+    src: url('/static/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: FONTE-BOLD;
+    src: url('/static/fonts/Poppins-Bold.ttf');
+}
+/*fonts ends*/ 
+
+html {
+    background-color: black;
+}
+
+body {
+    font-family: FONTE;
+    padding: 50px;
+  }
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+.login-button {
+    background-color: #5865F2;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.login-button:hover {
+    background-color: #4752c4;
+}
