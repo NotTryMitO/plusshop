@@ -1,17 +1,17 @@
 /*fonts starts*/  
 @font-face {
     font-family: FONTE-TITULO;
-    src: url('/static/fonts/Poppins-Black.ttf');
+    src: url('/static/fonts/Poppins-Black.ttf') format('truetype');
   }
   
   @font-face {
     font-family: FONTE;
-    src: url('/static/fonts/Poppins-Regular.ttf');
+    src: url('/static/fonts/Poppins-Regular.ttf') format('truetype');
   }
   
   @font-face {
     font-family: FONTE-BOLD;
-    src: url('/static/fonts/Poppins-Bold.ttf');
+    src: url('/static/fonts/Poppins-Bold.ttf') format('truetype');
   }
   /*fonts ends*/  
   /* body starts */
